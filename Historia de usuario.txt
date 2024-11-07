@@ -2,8 +2,9 @@ HISTORIAS DE USUARIO:
 Realizar el calculo de una operación (Ingresar comando, mostrar resultado)
 
 Como: usuario
-Quiero: poder realizar el calculo de una operacion
-Para: sumar
+Quiero: poder realizar el cálculo de una operación con números en una cadena con diferentes delimitadores
+Para: obtener la suma de los números en la cadena
 Criterios de confirmacion:
-- Cuando ingrese una cadena con la operacion y presiono el boton calcular se deberia mostrar el resultado
-- Cuando no se ingresa nada en la operacion y se presiona el boton calcular se debería mostrar 0 como resultado
+- Cuando ingrese una cadena de números separados por comas, guiones, o delimitadores personalizados y presione el botón calcular, se debería mostrar la suma de los números.
+- Cuando ingrese números mayores a 1000, estos deben ser ignorados en el cálculo.
+- Cuando no ingrese ningún número y presione el botón calcular, se debería mostrar 0 como resultado.
