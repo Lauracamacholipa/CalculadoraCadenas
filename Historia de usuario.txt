@@ -1,0 +1,9 @@
+HISTORIAS DE USUARIO: 
+Realizar el calculo de una operación (Ingresar comando, mostrar resultado)
+
+Como: usuario
+Quiero: poder realizar el calculo de una operacion
+Para: sumar
+Criterios de confirmacion:
+- Cuando ingrese una cadena con la operacion y presiono el boton calcular se deberia mostrar el resultado
+- Cuando no se ingresa nada en la operacion y se presiona el boton calcular se debería mostrar 0 como resultado
